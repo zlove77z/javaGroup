@@ -1,15 +1,13 @@
 package t08_inheritance;
 
-// 부모가 가지고 있는 메소드를 내가 다시 가져와서 다시 재정의 해서 사용하는것이 오버라이드!!
-// 부모가 가지고 있는 메소드를 내가 가지고 오면 무조건 오버라이드다! 고치던 안고치던 무조건 오버라이드이다!
-// 오버라이드는 똑같은 내용이 있으면 자식의 것을 무조건 우선순위로 한다 !
-// 오버라이드는 메소드의 선언부가 똑같아야 오버라이드라 한다!
-// @를 앞에 쓰면 어노테이션 이다!
 public class T05Run {
 	public static void main(String[] args) {
 		T05_C t5 = new T05_C();
 		
-		t5.areaCirvle(1);
+		t5.areaCircle(10);
 		
+		t5.div(15, 4);
+		
+		System.out.println("main 끝..");
 	}
 }

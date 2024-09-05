@@ -1,13 +1,19 @@
 package t08_inheritance;
 
 public class T05_C extends T05_P {
-	//@Override <<<는 어노테이션 오버라이드 즉 부모개체의 오버라이
-	// 드를 하는데 내가 틀린것이 있으면 컴파일러가 알려준다!
 
-	@Override
-	void areaCirvle(int r) {
-		// TODO Auto-generated method stub
-		super.areaCirvle(r);
-	}
+		@Override
+		void areaCircle(int r) {
+			
+		}
+
+		@Override
+		void div(int su1, int su2) {
+			//super.div(su1, su2);  // 자식메소드 사용하지 않고, 부모메소드 호출
+			double res = (double) su1 / su2;
+			System.out.println("res : " + res);
+		}
+		
+		
 	
 }

@@ -1,8 +1,7 @@
 package t08_inheritance;
 
-public class T01_C extends T01_P{
+public class T01_C extends T01_P {
 	void mod2() {
-		System.out.println("이곳은 T01_C클래스의 cod2메소드 입니다.");
-		
+		System.out.println("이곳은 T01_C 클래스의 mod2메소드입니다.");
 	}
 }

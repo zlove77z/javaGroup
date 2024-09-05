@@ -1,6 +1,7 @@
 package t08_inheritance;
 
-public class T02Bb extends T02Aa{
+public class T02Bb extends T02Aa {
+	
 	// 원의 면적(r * r * 3.14)
 	double areaCircle(int r) {
 		return r * r * Math.PI;
